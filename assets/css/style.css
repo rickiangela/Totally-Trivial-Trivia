@@ -1,0 +1,21 @@
+#big-box{
+    background-color: tan;
+    height: 480px;
+    width: 75%;
+    margin-top: 40px;
+    padding: 20px;
+}
+#totally-trivia{
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    color: purple;
+}
+h4{
+    font-size: 30px;
+    color: blue;
+}
+button{
+    display: flex;
+    justify-content: center;
+}
