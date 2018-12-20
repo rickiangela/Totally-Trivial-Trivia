@@ -1,21 +1,67 @@
-#big-box{
-    background-color: tan;
-    height: 480px;
-    width: 75%;
-    margin-top: 40px;
-    padding: 20px;
+body{
+	background: url('../images/doggie-trivia-backgrond.jpg');
+	font-family: 'Amatic SC', cursive;
+	font-size: 25px;
 }
-#totally-trivia{
-    font-size: 50px;
-    text-align: center;
+header {
     position: relative;
-    color: purple;
+    text-align: center;
+    color: white;
+  }
+img{
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
-h4{
-    font-size: 30px;
-    color: blue;
+h1{
+    color: white;
+    font-size: 110px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-button{
-    display: flex;
-    justify-content: center;
+.btn-primary,.reset{
+    margin-top: 20px;
+	background-color: #313477;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size: 30px;
+	padding: 20px;
+	margin-top: 100px;
+}
+.btn-primary:hover, .reset:hover{
+	background-color: #202364;
+}
+
+.container{
+	margin-top: 50px;
+	text-align: center;
+	height: 100%;
+	width: 700px;
+}
+
+h2, #message, #finalMessage{
+	font-family: 'Amatic SC', cursive;
+}
+
+.thisChoice:hover{
+	background-color: #202364;
+	color: white;
+	padding: 10px;
+}
+
+#gif{
+	margin: 30px;
+}
+
+@media screen and (max-width:640px){
+	.container{
+		width: 500px;
+		margin-top: 200px;
+		size: 200%;
+	}	
 }
